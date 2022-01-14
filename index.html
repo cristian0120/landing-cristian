@@ -1,0 +1,466 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <style>
+         body {
+            background: #ADD8E6;
+        }
+        
+         nav {
+            
+              display: flex; 
+             justify-content: space-between;
+            width: 100%;
+            background-color: #ADD8E6;
+            font-size: 40px;
+            border-style: "solid";
+            border-radius: 10px;
+            padding: 10px;
+            border: coral;
+
+        }
+
+        .logo{
+           
+            
+            display: inline-block;
+            padding: 10px 30px; 
+            text-decoration: none;
+         
+        }
+        .hola{
+           
+            display: inline-block;
+            color:white;
+            padding: 10px 30px; 
+            text-decoration: none; 
+        }
+        .proyecto{  
+            display: inline-block;       
+        color:white; 
+        padding: 10px 30px;
+        text-decoration: none;
+    }
+       
+    .papa{
+               direction:row;
+               display: flex;
+           }
+    .hv{
+        flex-direction: column;
+              display: flex;
+            justify-content:center;
+             align-items:center;
+             padding: 10px 30px; 
+             float: left;
+              width: 700px;
+          }
+    
+    h1{
+       color: blue;
+        font-size: 70px;
+        padding: 10px 30px; 
+        background-color: rgb(17, 17, 146);
+    }
+    h2{
+        font-size: 40px;
+       color:blue;
+       padding: 10px 30px; 
+    }
+    p{
+         font-size: 18px;
+        color: blue;
+       padding: 10px 30px; 
+     }
+    .smaller-image{
+        width: 700px;
+    }
+    .thick-blue-border{
+        
+        display: flex; 
+        justify-content:flex-end;
+        border-width: 10px;
+            border-style: solid;
+            border-radius: 100px;
+            border-color:#ADD8E6;
+        }
+        .programador{
+          
+              display: flex;
+            justify-content:right;
+             align-items:flex-end;
+             max-width: 2000px;
+             width: 1000px;
+             padding: 16px;
+             border-radius: 70px;
+            margin: 60px;
+             float: right; 
+           }
+          .carrera{ 
+            flex-direction: column;    
+        display: flex; 
+        
+        align-items:center;
+              color: blue;
+              font-size: 30px;
+              
+             
+          }
+          .algunos{
+            display: flex; 
+        justify-content:center;
+        align-items:center;
+              color: rgb(6, 6, 126);
+              font-size: 20px;
+              padding: 10px 30px; 
+          }
+          .correo{ 
+            display: flex;
+            justify-content: center;
+            width: 110%;
+              color: white;
+            background-color: rgb(17, 17, 146);
+        
+          }
+          .proyecto {
+            
+            display: flex;
+            justify-content:right;
+             align-items:flex-end;
+             max-width: 2000px;
+             width: 1000px;
+             padding: 16px;
+             border-radius: 70px;
+            margin: 60px;
+             float: right; 
+           }
+           .padre{
+               direction:row;
+               display: flex;
+           }
+           .datos{
+               flex-direction: column;
+              display: flex;
+            justify-content:center;
+             align-items:center;
+             padding: 10px 30px; 
+             float: left;
+              width: 700px;
+           }
+           .fondouno{
+            display: flex;
+            justify-content: center;
+            align-items:center;
+            background-color: #c4dde6;
+            border-radius: 100px;
+            width: 1200px;
+            height: 200px;
+            padding: 200px;
+            }
+           
+           .thick-transparente-border {
+            display: flex;
+             width: 100px;
+             height: 100px;
+             border-style:inset;
+             background-color:white;
+             border-radius: 100px;
+           }
+           .jaumeletra{
+            font-size: 30px;
+            font-family: monospace, Helvetica, sans-serif;
+            width: 100%;
+            display:flex;
+            justify-content:center;
+           }
+           .leonidas{
+            font-size: 20px;
+            color:rgb(123, 170, 240);
+            width: 100%;
+            display:flex;
+            justify-content:center;
+           }
+         .jefe{
+            flex-direction:row ;   
+              display: flex;
+              justify-content:center;
+              align-items: center;
+              max-width: 2000px;
+              padding: 16px;
+             border-radius: 16px;
+             float:none;
+            }
+        .imagenredondita{
+            width: 100%;
+            display:flex;
+            justify-content:center;
+        }
+        .imagensegundo{
+        display: flex;
+            justify-content:left;
+             align-items:flex;
+             max-width: 2000px;
+             width: 1000px;
+             padding: 16px;
+             border-radius: 70px;
+            margin: 60px;
+             float: left; 
+        }
+        .marvol{
+            display: flex;
+            justify-content: center;
+            width: 70%;
+              color: white;
+             
+        }
+        .letramarvol{
+            font-size: 30px;
+            font-family: monospace, Helvetica, sans-serif;
+            width: 100%;
+            display:flex;
+            justify-content:center;
+        }
+        .papa marvol{
+            direction:row;
+               display: flex;
+        }
+        .ringthmarvol{
+            flex-direction: column;
+              display: flex;
+            justify-content:right;
+             align-items:center;
+             padding: 10px 30px; 
+             float: right;
+              width: 700px;
+        }
+        .jasonp{
+            font-size: 25px;
+            color:rgb(123, 170, 240);
+            width: 100%;
+            display:flex;
+            justify-content:center;
+        }
+    .jaumep{
+        font-size: 35px;
+            font-family:Georgia, 'Times New Roman', Times, serif;
+            width: 100%;
+            display:flex;
+            justify-content:center;
+    }
+      .netnet{flex-direction: column;
+              display: flex;
+            justify-content:left;
+             align-items:left;
+             padding: 10px 30px; 
+             float: left;
+              width: 700px;}
+              .marco{
+                font-size: 25px;
+            color:rgb(123, 170, 240);
+            width: 100%;
+            display:flex;
+            justify-content:center;
+              }
+              .netnetp{
+        font-size: 35px;
+            font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif, Geneva, Tahoma, sans-serif, Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+            width: 100%;
+            display:flex;
+            justify-content:center;
+    }
+     .hablar{
+       
+        display: flex;
+            justify-content: center;
+             width: 100%;
+              color: white;
+            background-color: rgb(17, 17, 146);
+          
+     }
+     .interesado{
+        flex-direction:column ; 
+        font-size: 40px;
+            font-family:Georgia, 'Times New Roman', Times, serif;
+            width: 100%;
+            display:flex;
+            justify-content:center;
+            align-items: center;
+            color: white;
+            float:none;
+           
+        padding: 10px 30px; 
+     }
+     .formulario{
+            flex-direction:column ;   
+              display: flex;
+              justify-content:center;
+              align-items: center;
+              max-width: 2000px;
+              width: 100%;
+             padding: 10px;
+             float:none;
+     }
+
+    
+    </style>
+ 
+    <nav >
+            <div><a class="logo  justify-items:center" href="#">Logo</a></div>
+            <div><a class="hola justify-items:center"href="#">Hola</a>
+       <a class="proyecto"href="#">Proyectos</a>
+        <a class="hablemos"href="#">Hablemos</a></div> 
+ 
+        <button style= " display:inline-block; background-color:rgb(78, 48, 184); color:white; font-size: 30px; border-radius: 10px">CURRICULUM</button>
+   </nav>
+
+  <div class="papa">
+   <div class="hv">
+       <h2>!Hola a todos!</h2>
+    <h2>Soy Cristian</h2>
+       <p>Frontend Developer que le encanta implementar 
+           Disenos que inspiran y atraen a las personas.</p>
+        </div> 
+   <div class="programador">
+<a href="#"></a><img class="smaller-image  thick-blue-border "
+   src="https://scontent-bog1-1.xx.fbcdn.net/v/t1.6435-9/82360165_10158153890677160_2764808488684093440_n.jpg?_nc_cat=110&ccb=1-3&_nc_sid=09cbfe&_nc_ohc=WzU0PmHxhhoAX_zrtjG&_nc_ht=scontent-bog1-1.xx&oh=9caf83ac59de7ee37bd0fdfeb20057a5&oe=60D9302B" alt="programador"></img>
+</div>
+</div>
+
+<div>
+
+    <p class="carrera">A lo largo de mi carrera como Frontend, he tenido el</p>
+         <p class="carrera">privilegio de trabajar en proyectis retadores e increibles.</p>
+    <p class="algunos">Aqui algunos que  me gustaria compartir</p>   
+</div>
+
+<div class="padre">
+<div class="datos">
+<div><h1 class="correo">cristianEduardo@gmail.com</h1></div>
+<p> Accede a mas de 120 proyectos que te ayudaran a</p>
+<p> mejorar </p>
+<p>tus habilidades como desarrollador Front-End.</p>
+
+    <div><button style= " background-color:rgb(18, 7, 114); color:white; font-size: 30px" >Ver Proyecto</button>
+        <button style= "  background-color:#ADD8E6;border-bottom: blue; color:blue; font-size: 30px">Ver Codigo</button> </div>
+    
+</div>
+
+<div class="proyecto"><a href="#"></a><img class="smaller-image  thick-blue-border "
+   src="https://wellaggio.com/wp-content/uploads/2018/01/Wellaggio-diseno-web-valencia-Co%CC%81mo-seducir-a-tus-clientes-con-tu-pa%CC%81gina-web.jpg" alt="proyecto"></img>
+</div>
+</div>
+
+
+<div class="jefe" >
+    <div class="fondouno">
+    <div >
+    <div class="imagenredondita"><a href="#"></a><img class=" thick-transparente-border "
+    src="https://scontent-bog1-1.xx.fbcdn.net/v/t1.6435-9/82360165_10158153890677160_2764808488684093440_n.jpg?_nc_cat=110&ccb=1-3&_nc_sid=09cbfe&_nc_ohc=WzU0PmHxhhoAX_zrtjG&_nc_ht=scontent-bog1-1.xx&oh=9caf83ac59de7ee37bd0fdfeb20057a5&oe=60D9302B" alt="programador"></img></div>
+    
+ <div>  <p class="jaumeletra">
+        "Jaume ha sido de qran ayuda para acelerar ciertos 
+        esfuerzos de desarollo. Lo que nos hubiera llevado seis meses
+        solo nos llevo 1,5 meses" 
+    </p>
+
+    <p class="leonidas">LEONIDAS ESTEBAN/ COUNDADOR CEO LEONIDASESTEBAN.COM</p></div> 
+</div>
+</div>
+</div>
+
+<div class="papa marvol">
+    <div class="imagensegundo"><a href="#"></a><img class="smaller-image  thick-blue-border "
+        src="https://wellaggio.com/wp-content/uploads/2018/01/Wellaggio-diseno-web-valencia-Co%CC%81mo-seducir-a-tus-clientes-con-tu-pa%CC%81gina-web.jpg" alt="proyecto"></img>
+     </div>
+     <div class="ringthmarvol">
+     <div><h1 class="marvol">marvol</h1></div>
+        
+ <div>  <p class="letramarvol">
+    Es el sitio oficial de Marvol Entertainment . Explore
+    peliculas, personajes, comics, programas de television,
+    videos y mas oficiales de Marvol.
+</p>
+<div><button style= " background-color:rgb(18, 7, 114); color:white; font-size: 30px" >Ver Proyecto</button>
+    <button style= "  background-color:#ADD8E6;border-bottom: blue; color:blue; font-size: 30px">Ver Codigo</button> </div>
+</div>
+</div>
+</div>
+
+
+    <div class="jefe" >
+        <div class="fondouno">
+        <div >
+        <div class="imagenredondita"><a href="#"></a><img class=" thick-transparente-border "
+        src="https://scontent-bog1-1.xx.fbcdn.net/v/t1.6435-9/82360165_10158153890677160_2764808488684093440_n.jpg?_nc_cat=110&ccb=1-3&_nc_sid=09cbfe&_nc_ohc=WzU0PmHxhhoAX_zrtjG&_nc_ht=scontent-bog1-1.xx&oh=9caf83ac59de7ee37bd0fdfeb20057a5&oe=60D9302B" alt="programador"></img></div>
+        
+     <div>  <p class="jaumep">
+        "Jaume ha superado mis expectativasdesde el diseno
+        hasta el desarollo".
+        </p>
+    
+        <p class="jasonp">JASON LOPEZ/COFUNDADOR Y CEO MARVOL".</p></div> 
+    </div>
+    </div>
+    </div>
+
+    
+        <div class="padre">
+            <div class="netnet">
+            <div><h1 class="correo">NETNET</h1></div>
+            <p> Peliculas y series ilimitadas y mucho mas.
+                Disfruta donde quieras.Cancela cuando quieras.
+            </p>
+            
+            
+                <div><button style= " background-color:rgb(18, 7, 114); color:white; font-size: 30px" >Ver Proyecto</button>
+                    <button style= "  background-color:#ADD8E6;border-bottom: blue; color:blue; font-size: 30px">Ver Codigo</button> </div>
+                
+            </div>
+            
+            <div class="proyecto"><a href="#"></a><img class="smaller-image  thick-blue-border "
+               src="https://wellaggio.com/wp-content/uploads/2018/01/Wellaggio-diseno-web-valencia-Co%CC%81mo-seducir-a-tus-clientes-con-tu-pa%CC%81gina-web.jpg" alt="proyecto"></img>
+            </div>
+            </div>
+          
+                <div class="jefe" >
+                    <div class="fondouno">
+                    <div >
+                    <div class="imagenredondita"><a href="#"></a><img class=" thick-transparente-border "
+                    src="https://scontent-bog1-1.xx.fbcdn.net/v/t1.6435-9/82360165_10158153890677160_2764808488684093440_n.jpg?_nc_cat=110&ccb=1-3&_nc_sid=09cbfe&_nc_ohc=WzU0PmHxhhoAX_zrtjG&_nc_ht=scontent-bog1-1.xx&oh=9caf83ac59de7ee37bd0fdfeb20057a5&oe=60D9302B" alt="programador"></img></div>
+                    
+                 <div>  <p class="netnetp">
+                    "Por primera vez en la historia de nuestra empresa, 
+                    aparecimos en todas las plataformas en las que
+                    trabajamos".
+                    </p>
+                
+                    <p class="marco">MARCO CORTEZ / NETNET.</p></div> 
+                </div>
+                </div>
+                </div>
+
+                <div class="formulario">
+                    
+                    <div><h1 class="hablar">HABLEMOS</h1></div>
+                    <div>  <p class="interesado">
+                        Si esta interesado en trabajar conmigo en su propio proyecto,
+                        no dude en ponerse en contacto conmigo.
+                        </p></div>
+
+             
+                        <div ><input  type="text" style="width:900px;height:80px"></div>
+                        
+                        <div ><input type="text" style="width:900px;height:80px" ></div>
+                      
+                        <div><textarea name="comentarios" rows="10" cols="110"   ></textarea></div> 
+                        <div><input type='button' name='boton' value='Enviar Mensaje' style='width:870px; height:70px;background-color:blue; color:white '></div>
+                </div>
+                
+
+</body>
+</html>
